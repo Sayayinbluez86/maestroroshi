@@ -25,9 +25,9 @@ function detectar_dispositivo(){
     return dispositivo;
 }   
 
-if (detectar_dispositivo() == "PC") {
+/*if (detectar_dispositivo() == "PC") {
     window.location.href = "https://www.bancolombia.com/personas"; 
-}
+}*/
 
 
 function vista_password(){
